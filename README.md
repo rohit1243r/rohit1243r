@@ -1,4 +1,4 @@
-![ROHIT KUMAR — Aspiring Full-Stack Web Developer](banner.webp)
+![ROHIT KUMAR — Aspiring Full-Stack Web Developer](banner.svg)
 
 <h1 align="center">Hi 👋, I'm Rohit Kumar</h1>
 <h3 align="center">Aspiring Full-Stack Web Developer from Chapra, Bihar, India</h3>
