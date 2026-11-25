@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0620"/>
+      <stop offset="55%" stop-color="#2b1055"/>
+      <stop offset="100%" stop-color="#7597de"/>
+    </linearGradient>
+    <linearGradient id="grid" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#ff2e9a"/>
+    </linearGradient>
+    <radialGradient id="planet1" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ff7ad9"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </radialGradient>
+    <radialGradient id="planet2" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#7de3ff"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="80" cy="50" r="2"/><circle cx="220" cy="90" r="1.5"/><circle cx="420" cy="40" r="2"/><circle cx="620" cy="70" r="1.5"/><circle cx="820" cy="45" r="2"/><circle cx="1020" cy="80" r="1.5"/><circle cx="1180" cy="50" r="2"/><circle cx="150" cy="150" r="1.5"/><circle cx="1150" cy="160" r="1.5"/>
+  </g>
+  <circle cx="170" cy="110" r="55" fill="url(#planet1)"/>
+  <ellipse cx="170" cy="110" rx="95" ry="18" fill="none" stroke="#ff2e9a" stroke-width="4" transform="rotate(-18 170 110)"/>
+  <circle cx="1110" cy="100" r="45" fill="url(#planet2)"/>
+  <ellipse cx="1110" cy="100" rx="78" ry="14" fill="none" stroke="#00e5ff" stroke-width="4" transform="rotate(-18 1110 100)"/>
+  <g stroke="url(#grid)" stroke-width="1.5" opacity="0.55">
+    <line x1="0" y1="300" x2="1280" y2="300"/><line x1="0" y1="330" x2="1280" y2="330"/><line x1="0" y1="360" x2="1280" y2="360"/><line x1="0" y1="390" x2="1280" y2="390"/>
+    <line x1="320" y1="280" x2="180" y2="400"/><line x1="640" y1="280" x2="640" y2="400"/><line x1="960" y1="280" x2="1100" y2="400"/>
+  </g>
+  <text x="640" y="185" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="bold" fill="#ffffff" letter-spacing="6">ROHIT KUMAR</text>
+  <text x="640" y="235" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="36" fill="#ff7ad9">Aspiring Full-Stack Web Developer</text>
+  <text x="640" y="272" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#7de3ff" letter-spacing="4">REACT  |  NODE.JS  |  JAVASCRIPT  |  AI</text>
+</svg>
